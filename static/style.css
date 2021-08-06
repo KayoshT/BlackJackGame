@@ -1,0 +1,42 @@
+.game {
+    padding: 100px;
+    border: 1px solid grey;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    background: url('images/bj-.jpg') center;
+}
+.game h2, h3 {
+    color: #ffff  
+}
+.flex-row-1, .flex-row-2, .flex-row-3{
+    display: flex;
+    border: 1px solid grey;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex-row-1, .flex-row-2, .flex-row-3{
+    
+    color: #ffff
+}
+.flex-row-2 div {
+    padding: 10px;
+}
+table, th, td { 
+    border: 1px solid grey;
+    padding: 5px;
+}
+.flex-row-1 img {
+    width: 25%;
+    padding: 10px;
+}
+.flex-row-1 div {
+    border: 1px solid grey;
+    padding: 10px;
+    text-align: center;
+    height: 350px;
+    flex: 1;
+}
